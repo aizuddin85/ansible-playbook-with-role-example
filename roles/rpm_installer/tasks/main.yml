@@ -5,7 +5,7 @@
   # calling get_url built-in module to download RPM from the insecure https site.
   # Document: https://docs.ansible.com/ansible/devel/modules/get_url_module.html
   get_url:
-    url: "{{ content_host }}/pub/{{ rpm_filename }}"
+    url: "{{ content_host }}/{{ rpm_filename }}"
     dest: "/tmp/{{ rpm_filename }}"
     mode: 0644
     validate_certs: no

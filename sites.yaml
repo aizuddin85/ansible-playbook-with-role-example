@@ -1,0 +1,5 @@
+---
+- name: Setting up system
+  hosts: all
+  roles:
+    - rpm_installer

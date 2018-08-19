@@ -1,6 +1,6 @@
 ---
 # vars file for rpm_installer
 
-content_hosts: https://www.example.com
+content_hosts: https://www.example.com/pub
 rpm_filename: example.rpm
 
